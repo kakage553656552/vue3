@@ -1,6 +1,6 @@
 <template>
-  我是子组件{{n}}
-  <button @click="updateValue">修改</button>
+{{n}}
+  <el-button type="primary" @click="updateValue">修改</el-button>
 </template>
 <script  lang="ts">
 import { defineComponent,reactive,watch,ref } from 'vue'

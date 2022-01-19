@@ -2,8 +2,16 @@
 <template>
   <div>
     <div>{{ n }}</div>
-    <button @click="btnClick">+</button>
+    <el-button type="primary" :icon="Plus" @click="btnClick">+</el-button>
     <HelloWorld :n="n" @setValue="setValue"></HelloWorld>
+    <hr>
+    <el-button>Default</el-button>
+    <el-button loading type="primary">Primary</el-button>
+    <el-button type="success">Success</el-button>
+    <el-button type="info">Info</el-button>
+    <el-button type="warning">Warning</el-button>
+    <el-button type="danger">Danger</el-button>
+    <el-button>中文</el-button>
   </div>
 </template>
 <script  lang="ts">
