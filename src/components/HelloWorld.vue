@@ -1,5 +1,4 @@
 <template>
-{{n}}
   <el-button type="primary" @click="updateValue">修改</el-button>
 </template>
 <script  lang="ts">
