@@ -12,7 +12,7 @@
     <el-button type="info">Info</el-button>
     <el-button type="warning">Warning</el-button>
     <el-button type="danger">Danger</el-button>
-    <el-button>中文</el-button>
+    <el-button>中文11111</el-button>
   </div>
 </template>
 <script  lang="ts">
